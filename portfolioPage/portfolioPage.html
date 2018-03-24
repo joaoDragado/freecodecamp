@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!-- Required meta tags -->
+  <meta charset=UTF-8">  
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <!-- Bootstrap CSS -->
+  <!-- CDN links -->
+  <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"> -->
+  <!-- Local links -->
+  <link rel="stylesheet" href="/archive/Studies/HTML_CSS/Bootstrap_framework/bootstrap-4.0.0/css/bootstrap.min.css">
+
+  <!-- Add FontAwesome icon library -->
+  <!-- CDN links -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.8/css/brands.css">
+  
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.8/css/fontawesome.css">
+
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,400i,700" rel="stylesheet">
+
+  <!-- Local links -->
+  
+  <!-- User CSS files -->
+  <!-- <link href="/archive/Studies/HTML_CSS/freecodecamp/portfolioPage/css/main.css" rel="stylesheet" type="text/css"> -->
+
+  <style type="text/css">
+    body {
+      background-color: #eae0c8;
+      font-family: "Open Sans","Helvetica Neue",Helvetica,Verdana, sans-serif !important;
+    }
+    .logo {
+      width: 2em;
+      height: 2em;
+    }
+    .Blogo {
+    width: 1.5rem;
+    height: 1.5rem;
+    }
+
+
+    hr {
+      margin-top: 1rem;
+      margin-bottom: 1rem;
+      border: 0;
+      border-top: 5px solid rgba(0, 0, 0, 0.2);
+    }    
+    .intro {
+      clear: both;
+    }
+    .portrait {
+      width:  200px;
+      height: 200px;
+      border-radius: 50%;
+    }
+    .shadowNav {
+        -webkit-box-shadow: 0 10px 6px -6px #777;
+        -moz-box-shadow: 0 10px 6px -6px #777;
+        box-shadow: 0 10px 6px -6px #777;
+    }
+    .shadowBio {
+        -webkit-box-shadow: 0 10px 6px -6px #777, -2px -2px 2px -2px #777;
+        -moz-box-shadow: 0 10px 6px -6px #777, -2px -2px 2px -2px #777;
+        box-shadow: 0 10px 6px -6px #777, -2px -2px 2px -2px #777;
+    }
+    .shadowImg {
+        -webkit-box-shadow: 7px 7px 5px -5px #777;
+        -moz-box-shadow: 7px 7px 5px -5px #777;
+        box-shadow: 7px 7px 5px -5px #777;
+    }
+    .copy-left { 
+      display: inline-block; 
+      text-align: right; 
+      margin: 0px; 
+      -moz-transform: scaleX(-1); 
+      -o-transform: scaleX(-1); 
+      -webkit-transform: scaleX(-1); 
+      transform: scaleX(-1); 
+      filter: FlipH; 
+      -ms-filter: “FlipH”; 
+    }
+  </style>
+  
+  <title>Professional Portfolio</title>
+</head>
+  <body>
+    <!-- Navigation -->
+    <div class="bg-info shadowNav sticky-top">
+      <nav class="navbar navbar-expand-sm navbar-dark bg-info py-0 my-0">
+       <a class="navbar-brand" href="#">
+        <img src="/archive/Studies/HTML_CSS/freecodecamp/portfolioPage/images/bootstrap-stack.png" class="d-inline-block align-center logo" alt="logo">
+          Bespoke Designs
+      </a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
+        <div class="navbar-nav ">
+          <a class="nav-item nav-link" href="#bio">About<span class="sr-only">(current)</span></a>
+          <a class="nav-item nav-link" href="#portfolio">Portfolio</a>
+          <a class="nav-item nav-link" href="#contactMe">Contact</a>
+        </div>
+      </div>
+      </nav>
+    </div>
+      <!-- Professional Bio -->
+  <div class="container-fluid">
+    <div class="row  pt-1" id="bio">
+      <div class="col py-1"><hr></div>
+      <div class="col-auto"><h4 class="text-center py-1">Bio</h4></div>
+      <div class="col py-1"><hr></div>
+    </div>
+   <div class="row intro p-4 bg-secondary text-light shadowBio">
+    <div class="col-sm-8">
+      <p class="shortBio text-left font-weight-bold">Full-Stack Web Developer, focused in delivering a data-driven, info-centric, immersive User Experience; devoted to FOSS and the power of interactive visualisation.</p>
+      <hr class="">
+      <p class="text-center font-weight-bold">Web Developer - Data Science Practitioner - Technical Translator</p>
+    </div>
+    <div class="d-none d-sm-block col-sm-4 text-center">
+      <img class="img-fluid portrait" src="/archive/Studies/HTML_CSS/freecodecamp/portfolioPage/images/avatar_pic.jpg" alt=" personal portrait">
+    </div>
+   </div>
+    <!-- Portfolio -->
+    <div class="row pt-1" id="portfolio">
+      <div class="col py-1"><hr></div>
+      <div class="col-auto"><h4 class="text-center py-2">Portfolio</h4></div>
+      <div class="col py-1"><hr></div>
+    </div>
+  <div class="row portfolio pt-4 pl-4 pr-4">
+    <div class="col-sm-6"> 
+      <figure class="figure">
+        <img class="figure-img img-fluid rounded websiteCast shadowImg" src="/archive/Studies/HTML_CSS/freecodecamp/portfolioPage/images/webbrandaxis.jpg" alt="">
+      <figcaption class="figure-caption text-center">
+        AlphaCorp - Global Marketing Solutions
+      </figcaption>
+      </figure>
+    </div>
+    <div class="col-sm-6"> 
+      <figure class="figure">
+       <img class="figure-img img-fluid rounded websiteCast shadowImg" src="/archive/Studies/HTML_CSS/freecodecamp/portfolioPage/images/webcaballero.jpg" alt="">
+      <figcaption class="figure-caption text-center">
+    Caballero Security Services
+      </figcaption>
+      </figure>
+    </div>
+  </div>
+  <div class="row portfolio pb-4 pl-4 pr-4">
+    <div class="col-sm-6"> 
+      <figure class="figure">
+        <img class="figure-img img-fluid rounded websiteCast shadowImg" src="/archive/Studies/HTML_CSS/freecodecamp/portfolioPage/images/webgatomalo.jpg" alt="">
+        <figcaption class="figure-caption text-center">
+    Gatomalo - Spanish e-Learning Site 
+        </figcaption>
+      </figure>
+    </div>
+    <div class="col-sm-6"> 
+      <figure class="figure">
+       <img class="figure-img img-fluid rounded websiteCast shadowImg" src="/archive/Studies/HTML_CSS/freecodecamp/portfolioPage/images/webmarqas.jpg" alt="">
+      <figcaption class="figure-caption text-center">
+    Marquas - Travel Booking Site
+      </figcaption>
+      </figure>
+    </div>
+  </div>
+  <!-- Contact Section -->
+    <div class="row  pt-1">
+      <div class="col py-1"><hr></div>
+      <div class="col-auto"><h4 class="text-center py-2">Contact Me</h4></div>
+      <div class="col py-1"><hr></div>
+    </div>
+  <div class="row align-items-center pt-2 pb-3" id="contactMe">
+    <div class="col-sm-6">
+      <form>
+      <div class="form-group">
+      <label for="exampleInputName">Your Name</label>
+      <input type="text" class="form-control" id="exampleInputName" aria-describedby="nameHelp" placeholder="Enter Your Name">
+    </div>
+    <div class="form-group">
+      <label for="exampleInputEmail1">E-mail address</label>
+      <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+      <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+    </div>
+   <div class="form-group">
+    <label for="exampleFormControlTextarea1">Your Message</label>
+    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+    </div>
+    <button type="submit" class="btn btn-primary">Submit</button>
+    </form>
+  </div>
+  <div class="d-none d-sm-block col-sm-6 p-5">
+    <p class="h5 text-center font-weight-bold">Want to get in touch with me? Be it to request more info about myself or my experience, to ask for my resume, tips on how to solve your sudoku, random questions about the universe and the meaning of life, or even if only for some nice Fika here in stunning Toronto... just feel free to drop me a line anytime.</p>
+  </div>
+  </div>
+  <!-- Footer with Social Links -->
+  <footer>
+    <div class="row  align-items-center py-2 bg-dark text-secondary" id="socialEtAl">
+      <div class="col-sm-4 py-2">
+        <p class="h5 text-center font-weight-bold"><u>About this page</u></p>
+        <p class="text-center">Made with <a href="https://getbootstrap.com/" target="#"><img src="/archive/Studies/HTML_CSS/freecodecamp/portfolioPage/images/apple-touch-icon.png" class="d-inline-block align-center Blogo" alt="logo"></a> by Joao Dragado.</p>
+      </div>
+      <div class="col-sm-4 text-center">
+        <p class="h5 text-center font-weight-bold"><u>Around the Web</u></p>
+        <div class=" socialLinks" role="group" aria-label="Social Media Links">
+          <a class="btn btn-link" href="" target="#">
+            <i class="fab fa-lg fa-github"></i>
+          </a>
+          <a class="btn btn-link" href="" target="#">
+            <i class="fab fa-lg fa-linkedin"></i>
+          </a>
+          <a class="btn btn-link" href="" target="#">
+            <i class="fab fa-lg fa-twitter "></i>
+          </a>
+          <a class="btn btn-link" href="" target="#">
+            <i class="fab fa-lg fa-facebook"></i>
+          </a>
+        </div>
+      </div>
+      <div class="col-sm-4">
+        <p class="text-center font-weight-bold mb-0">Bespoke Designs<span class="copy-left">©</span> 2018.</p>
+        <p class="text-center m-0"><small>All Rights Reversed.</small></p>      
+      </div>
+    </div>
+  </footer>
+
+<!-- Optional JavaScript -->
+<!-- jQuery library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<!-- <script src="/archive/Studies/HTML_CSS/libraries/jquery-3.3.1.min.js"></script> -->
+
+<!-- Popper JS -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+<!-- <script src="/archive/Studies/HTML_CSS/libraries/popper-1.14.1.min.js"></script> -->
+
+<!-- Latest compiled Bootstrap JS -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+  </div>  
+  </body>
+</html>
+
